@@ -18,8 +18,6 @@ import UseEffectFetch from "./UseEffectFetch";
 import ErrorHandling, { Footer } from "./ErrorHandling";
 import ReactChildrenProps from "./ReactChildrenprops";
 import ReactParentChild from "./ReactParentChild";
-import ColorCard from "./ColorCard";
-import ColorContanier from "./ColorContainer";
 import ReactRouterExample from "./ReactRouterExample";
 import UseEffectTwo from "./UseEffectTwo";
 import ReactFormExample from "./ReactFormExample";
@@ -95,8 +93,6 @@ function App() {
         </ReactChildrenProps> */}
 
       {/* <ReactParentChild/> */}
-      {/* <ColorCard/>
-        <ColorCard/> */}
       {/* <ColorContanier/> */}
       {/* <ReactRouterExample /> */}
       {/* <MyForm /> */}

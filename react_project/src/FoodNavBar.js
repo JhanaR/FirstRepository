@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar, Form, Button } from "react-bootstrap";
+import "./FoodColor.css";
 import { GoHeart } from "react-icons/go";
 import { VscAccount } from "react-icons/vsc";
 import { HiOutlineShoppingBag } from "react-icons/hi";
@@ -18,7 +19,7 @@ function FoodNavBar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#pricing">MEN</Nav.Link>
+              <Nav.Link href="">MEN</Nav.Link>
               <Nav.Link href="#pricing">WOMEN</Nav.Link>
               <Nav.Link href="#pricing">KIDS</Nav.Link>
               <Nav.Link href="#pricing">HOME & LIVING</Nav.Link>
