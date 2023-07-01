@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Button, Navbar } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 // import Welcome from './Welcome'
 import Greeting from "./Greeting";
 import Greeter from "./Greeter";
@@ -22,6 +24,9 @@ import ReactRouterExample from "./ReactRouterExample";
 import UseEffectTwo from "./UseEffectTwo";
 import ReactFormExample from "./ReactFormExample";
 import MyForm from "./MyForm";
+import FoodCourt from "./FoodCourt";
+import FoodFooter from "./FoodFooter";
+import FoodNavBar from "./FoodNavBar";
 
 function App() {
   // let course = "reactjs";
@@ -94,9 +99,12 @@ function App() {
         <ColorCard/> */}
       {/* <ColorContanier/> */}
       {/* <ReactRouterExample /> */}
-      <MyForm />
+      {/* <MyForm /> */}
       {/* <ReactFormExample/> */}
       {/* <UseEffectTwo/> */}
+      <FoodNavBar />
+      <FoodCourt />
+      <FoodFooter />
       {/* </header> */}
     </div>
   );
